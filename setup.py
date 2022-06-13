@@ -24,5 +24,5 @@ setup(
     description="Demo project for showing working of Github Action and DVC",
     author="Himanshu",
     packages=find_packages(),
-    requires=get_requirement_list()
+    install_requires=get_requirement_list()
 )
